@@ -8,13 +8,13 @@ services:
     ports:
       - 8080:80
     environment:
-      YOURLS_DB_PASS: example
-      YOURLS_SITE: https://example.com
-      YOURLS_USER: example_username
-      YOURLS_PASS: example_password
+      YOURLS_DB_PASS: p2463328
+      YOURLS_SITE: https://shi.pper.men
+      YOURLS_USER: akundev
+      YOURLS_PASS: p2463328
 
   mysql:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: p2463328
