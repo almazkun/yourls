@@ -9,7 +9,7 @@ services:
       - 8080:80
     environment:
       YOURLS_DB_PASS: p2463328
-      YOURLS_SITE: https://shi.pper.men
+      YOURLS_SITE: http://shi.pper.men
       YOURLS_USER: akundev
       YOURLS_PASS: p2463328
 
